@@ -1,0 +1,31 @@
+.myheart{
+    display: block;
+    margin: 200px auto;
+    animation: Heart;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-repeat: no-repeat;
+}
+/* Snapdeel Heart Animation */
+@keyframes Heart{
+    0%{
+        transform: scale(1);
+    }
+    5%{
+        transform: scale(1.2);
+    }
+    10%{
+        transform: scale(1.1);
+    }
+    15%{
+        transform: scale(1.25);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
